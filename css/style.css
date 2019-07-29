@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+#video_background{
+position: absolute;
+bottom: 0px;
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+overflow: hidden;
+}
+
+/*--------------- SCRIPT ------------*/
+
+body
+{ 
+    margin: 0;
+    font: normal Arial, Helvetica, sans-serif;
+    background-image: url("../fond/particules.mp4");
+    background-repeat: no-repeat;
+} 
+
+/* ---- particles.js container ---- */
+
+#particles-js
+{ 
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+/*--------------- SCRIPT ------------*/
+
+/*--GENERAL--*/
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+body::-webkit-scrollbar {
+ 
+    display: none;
+ 
+}
+
+/*--GENERAL--*/
+
+/*--HEADER--*/
+
+.header {
+    height: 200vh;
+}
+.header h1 {
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.37);
+}
+.header .navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.header .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.58);
+    background-color: rgba(0, 0, 0, 0.43);
+}
+.header .navbar h1 {
+    color: #fff;
+}
+.header .navbar-nav li {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.header .navbar-nav li a {
+    
+}
+#navbarNav li a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#navbarNav li a:hover {
+    border: 1px solid #fff;
+    background-color: rgba(103, 103, 103, 0.22);
+}
+/*--HEADER--*/
+
+/*--CORPS--*/
+
+#corps {
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.49);
+    text-align: center;
+    width: 100%;
+}
+#corps img {
+    margin-top: 20px;
+    height: 250px;
+}
+#corps h1 {
+    margin-top: 0.5em;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+#corps .row {
+    
+}
+#corps .row p {
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 5px;    
+    box-shadow: 2px 2px 6px #000;
+}
+#corps .row p:hover {
+    padding: 2%;
+    background-color: #fff;
+    border: solid 1px #000;
+    color: #000;
+}
+#corps .row a
+{
+    text-decoration: none;
+}
+
+/*--CORPS--*/
+
+/*--FOOTER--*/
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin-top: 67.5em;
+    width: 100%;
+    font-size: 10px;
+}
+
+#footer .cond{
+    text-decoration: none;
+}
+
+#footer .cond:hover {
+    color: #959595;
+}
+
+footer p a {
+    color: #fff;
+}
+/*--FOOTER--*/
+
